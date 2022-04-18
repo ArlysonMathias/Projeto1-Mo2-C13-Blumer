@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(86, 249, 94);
+}
+header {
+  background-color: rgb(0, 0, 11);
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: center;
+  margin: auto;
+  max-width: 1200px;
+  min-width: 0px;
+}
+header img {
+  width: 100%;
+}
+
+section#secao1 h1 {
+  font-size: 5rem;
+  color: #010107;
+  width: 50%;
+  margin: auto;
+}
+section#secao1 h2 {
+  justify-content: center;
+  width: 50%;
+  font-size: 3rem;
+  margin: auto;
+  color: #010107;
+  padding: 1rem;
+}
+
+section#secao2 {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+section#secao2 div#texto {
+  padding: 4rem;
+  text-align: center;
+  color: #0d6573;
+}
+
+section#secao2 div#texto h2 {
+  font-size: 3.5rem;
+  padding: 2rem;
+}
+
+section#secao2 div#texto h3 {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+section#secao2 div#texto button {
+  padding: 4rem;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  background-color: #0d6573;
+  color: #fff;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+section#secao2 div#texto button:hover {
+  transform: scale(1.1);
+  background-color: rgb(247, 237, 40);
+  color: rgb(13, 2, 0);
+}
+
+section#bonus {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section#bonus button {
+  width: 20%;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  background-color: #0d6573;
+  color: #fff;
+  border-radius: 2.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+section#bonus button:hover {
+  transform: scale(1.1);
+  background-color: rgb(247, 237, 40);
+  color: rgb(13, 2, 0);
+}
+
+section#bonus img {
+  margin: 4rem;
+}
+
+section#bonus audio {
+  width: 0%;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #0d6573;
+}
+
+@media screen and (min-width: 250px) and (max-width: 620px) {
+  header {
+    width: 100%;
+    align-items: center;
+   
+  }
+
+  section#secao1 h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  section#secao1 h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  section#secao2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#secao2 h1 {
+    font-size: 2rem;
+  }
+  section#secao2 h2 {
+    font-size: 1.5rem;
+  }
+  section#secao2 img {
+    width: 100%;
+  }
+
+  section#bonus button {
+    width: 80%;
+  }
+
+  section#bonus img#imgBonus{
+    width: 125%;
+    margin-left: auto;
+    padding-left: 0%;
+    
+  }
+
+  section#bonus audio{
+    width: 100%;
+  }
+
+  footer{
+    
+    width: 50%;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: auto;
+  }
+}
